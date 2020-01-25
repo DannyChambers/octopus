@@ -1,11 +1,5 @@
 import React from 'react';
 
-//Arrangements
-
-//Patterns
-
-//Modules
-
 //Pages
 import Product   from    "./components/04-pages/product/index";
 

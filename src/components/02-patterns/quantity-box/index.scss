@@ -4,6 +4,43 @@
 @import  "../../00-tokens/dimensions/_index.scss";
 
 .quantity-box {
+	margin-bottom: $spacing-full;
+	background: $pattern-purple-1;
+
+	.quantity-box_label {
+		display: block;
+		font-family: $font-family-regular;
+		font-size: 1.6rem;
+		line-height: 3.6rem;
+		text-transform: uppercase;
+		color: $pattern-blue-2;
+	}
+
+	.button.button--icononly {
+		display: inline-block;
+		width: $dimension-full;
+		padding: 0;
+		font-size: 2.4rem;
+		height: $dimension-full;
+		line-height: $dimension-full;
+		background: $pattern-blue-2;
+		border-color: $pattern-blue-2;
+	}
+
+	.text-input {
+		display: inline-block;
+
+		input {
+			width: $dimension-full;
+			height: $dimension-full;
+			font-size: 3.2rem;
+			font-weight: bold;//Naughty
+			text-align: center;
+			border: none;
+			background: none;
+			color: $text-colour-1;
+		}
+	}
 	
 }
 
