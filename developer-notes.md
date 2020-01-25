@@ -1,7 +1,14 @@
 
 # Developer Notes
 
-## Known components
+This demo was built in React. I have used Redux for app global storage and utilised local state in components where appropriate. I have shown use of a componentised approach with Storybook. I have written tests in Jest.
+
+The app is not accurate to the design as I prioritised some functional aspects. I have also descoped some items such as the Primary navigation, and the graph and definition list.
+
+
+## Components
+
+Here is a list of components created during the test
 
 ### Tokens
 
@@ -17,9 +24,11 @@
 1. Button group
 2. T2 (Body copy medium)
 3. H2 
-4. Container (width wrapper)
-5. Paired list
-6. Captioned media 
+4. H3 
+5. H4 
+6. Container (width wrapper)
+7. Paired list
+8. Captioned media
 
 
 ### Patterns
