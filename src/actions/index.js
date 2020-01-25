@@ -1,26 +1,26 @@
 
-export const create = () => {
+export const Acreate = () => {
 
 	return {
 		type: 'CREATE'
 	}
 }
 
-export const retrieve = () => {
+export const Aretrieve = () => {
 
 	return {
 		type: 'RETRIEVE'
 	}
 }
 
-export const update = () => {
+export const Aupdate = () => {
 
 	return {
 		type: 'UPDATE'
 	}
 }
 
-export const delete = () => {
+export const Adelete = () => {
 
 	return {
 		type: 'DELETE'

@@ -8,11 +8,9 @@ export default class TextInput extends Component {
 
   render() {
 
-    //const { } = this.props;
-
     return (
       <div className="text-input">
-      
+      	<input type="text" value={this.props.value} readOnly />
       </div>
     );
   }

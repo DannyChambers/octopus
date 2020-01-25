@@ -31,20 +31,23 @@ $secondary-button-colour-disabled: $brand-5;
 	padding: 0 $spacing-full;
 	line-height: $dimension-full;
 	border: 2px solid $primary-button-border;
+	border-radius: 10px;
 	text-align: center;
 	white-space: nowrap;
 	font-family: $font-family-bold;
-	font-size: 1rem;
-	text-transform: uppercase;
+	font-size: 2rem;
 	text-decoration: none;
 	text-align: center;
 	cursor: pointer;
 	transition: all .4s ease-in-out;
+    background: -webkit-linear-gradient(top, $pattern-pink-1, $pattern-pink-2 50%, $pattern-pink-1 50%, $pattern-pink-1);
+
 
 	&:hover {
 		background: lighten($primary-button-background, 10%);
 		border-color: lighten($primary-button-background, 10%);
 		color: $primary-button-colour-hover;
+    	background: -webkit-linear-gradient(top, $pattern-pink-1, $pattern-pink-2 50%, $pattern-pink-1 50%, $pattern-pink-1);
 	}
 
 	&.is-disabled {
@@ -85,16 +88,6 @@ $secondary-button-colour-disabled: $brand-5;
 	}
 
 	&--icononly {
-		background: none;
-		border: none;
-		padding: 0;
-		height: auto;
-		line-height: normal;
-
-		&:hover {
-			background: none;
-			border: none;	
-		}
 
 		.button_text {
 			display: none;

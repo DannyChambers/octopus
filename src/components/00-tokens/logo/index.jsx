@@ -12,7 +12,7 @@ export default class Logo extends Component {
 
     return (
       <a href="/" className="logo">
-      	<h1 class="logo_text">Octopus Energy</h1>
+      	<h1 className="logo_text">Octopus Energy</h1>
       </a>
     );
   }
