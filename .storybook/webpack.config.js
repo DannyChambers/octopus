@@ -36,7 +36,14 @@ module.exports = ({ config }) => ({
       },
       {
           test: /\.scss$/,
-          use: ['style-loader', 'css-loader', 'sass-loader'],
+          use: ['style-loader', 'css-loader', 'sass-loader',{
+                      loader: 'sass-resources-loader',
+                      options: {
+                          resources: [
+                              path.resolve(__dirname, '../src/components/00-tokens/reset/index.scss')
+                          ]
+                      }
+                  }],
           include: path.resolve(__dirname, '../'),
         },
       {

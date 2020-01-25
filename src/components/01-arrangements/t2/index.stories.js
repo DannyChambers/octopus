@@ -1,12 +1,11 @@
 
 import React from "react";
-
 import { storiesOf } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
 
-import Icon from "./index";
+import T2 from "./index";
 
-storiesOf("Components/Arrangements/Icon", module)
+storiesOf("Components/Arrangements/Body copy two (t2)", module)
   .add("Default", () => (
-    <Icon position="before" graphic="cross" />
+    <T2 classes="" text="This is a body copy two style (mediu)" />
   ));
