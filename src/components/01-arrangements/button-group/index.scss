@@ -1,0 +1,68 @@
+
+@import  "../../00-tokens/colours/_index.scss";
+@import  "../../00-tokens/fonts/_index.scss";
+@import  "../../00-tokens/dimensions/_index.scss";
+
+.button-group {
+	width: 100%;
+
+	.button {
+		display: inline-block;
+		margin: 0 0 $spacing-full 0;
+	}
+
+	&.button-group--left , &.button-group--centre, &.button-group--right, &.button-group--fullwidth {
+		text-align: center;
+
+		.button {
+			margin: 0 $spacing-half $spacing-full 0;
+		}
+
+	}
+}
+
+
+@media only screen and (min-width : $breakpoint-2){
+
+	.button-group {
+
+		&.button-group--left {
+			text-align: left;
+
+			.button {
+				margin: 0 $spacing-half $spacing-full 0;
+			}
+		}
+
+		&.button-group--centre {
+			text-align: center;
+
+			.button {
+				margin: 0 $spacing-half $spacing-full 0;
+			}
+
+		}
+
+		&.button-group--right {
+			text-align: right;
+
+			.button {
+				margin: 0 0 $spacing-full $spacing-half;
+			}
+		}
+
+		&.button-group--fullwidth {
+			display: flex;
+
+			.button {
+				flex: 1 1 100%;
+				margin: 0 0 $spacing-full 0;
+
+				&:first-child {
+					margin-right: $spacing-half;
+				}
+			}
+		}
+	}
+
+}

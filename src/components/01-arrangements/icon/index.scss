@@ -1,0 +1,50 @@
+
+@import  "../../00-tokens/colours/_index.scss";
+@import  "../../00-tokens/fonts/_index.scss";
+@import  "../../00-tokens/dimensions/_index.scss";
+
+.icon--before, .icon--after {
+
+	&:before, &:after {
+		content: " ";
+		margin: 0 $spacing-quarter 0 0;
+		color: $text-colour-1;
+	}
+
+	&:after {
+		margin: 0 0 0 $spacing-quarter;
+	}
+
+	&.icon--cross {
+		
+		&:before, &:after {
+			content: "✕";
+			font-size: 1.2rem;
+		}
+	}
+}
+
+.icon--before {
+
+	&:after {
+		display: none;
+	}
+
+}
+
+.icon--after {
+
+	&:before {
+		display: none;
+	}
+
+}
+
+
+
+
+
+
+
+
+
