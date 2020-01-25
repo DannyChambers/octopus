@@ -1,0 +1,20 @@
+
+@import  "../../00-tokens/colours/_index.scss";
+@import  "../../00-tokens/fonts/_index.scss";
+@import  "../../00-tokens/dimensions/_index.scss";
+
+.logo {
+	display: block;
+	width: 209px;
+	height: 26px;
+	background: pink;
+
+	.logo_text {
+		width: 0;
+		height: 0;
+		overflow: hidden;
+		position: absolute;
+		left: -9999px;
+	}
+}
+
