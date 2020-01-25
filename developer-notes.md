@@ -10,7 +10,7 @@ The app is not accurate to the design as I prioritised some functional aspects. 
 
 Here is a list of components created during the test
 
-### Tokens
+### Tokens
 
 1. Colours
 2. Dimensions
