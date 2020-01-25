@@ -3,8 +3,8 @@
 @import  "../../00-tokens/fonts/_index.scss";
 @import  "../../00-tokens/dimensions/_index.scss";
 
-.page-footer {
-	background: $pattern-blue-1;
-	color: $text-colour-1;
+.t3 {
+	font-size: 1.2rem;
+	line-height: 2rem;
+	font-family: $font-family-regular;
 }
-

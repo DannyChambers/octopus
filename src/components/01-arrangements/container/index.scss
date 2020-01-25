@@ -6,6 +6,6 @@
 .container {
 	max-width: $breakpoint-4;
 	margin: 0 auto;
-	padding: 0;
+	padding: $spacing-full;
 	position: relative;
 }
