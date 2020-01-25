@@ -1,19 +1,21 @@
 import React from 'react';
-import './App.scss';
 
 //Arrangements
 
 //Patterns
-import Button   from    "./components/02-patterns/button/index";
 
 //Modules
 
 //Pages
+import Product   from    "./components/04-pages/product/index";
+
+//Component style
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <Button variant="primary" text="A button" />
+      <Product />
     </div>
   );
 }
